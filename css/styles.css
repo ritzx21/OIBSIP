@@ -1,0 +1,191 @@
+#title {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/54e730d4e4b0bc2e9a8f31d0/1528277500947-3RBUO37O1RE8LK9PABZT/steaming+cup+of+coffee+with+spilt+coffee+beans.jpg?format=1500w);
+    background-color: #271300;
+    width: 100%;
+    height: 50rem;
+
+
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 80px "Montserrat-Black";
+    font-size: 3.7rem;
+
+    line-height: 1.5;
+
+    color: #fff;
+}
+
+/* h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+} */
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.endText {
+    font-family: 80px "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+p {
+    color: #8f8f8f;
+    font-style: normal;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+.imgSymbol {
+    color: #9c6f44;
+}
+
+i:hover {
+    color: #271300;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.title-image {
+
+    height: 40%;
+    /* transform: rotate(25deg); */
+
+    /* position: relative;
+    margin-top: 80px; */
+
+
+}
+
+
+
+.container-fluid {
+    padding: 7% 15% 7% 15%;
+}
+
+#features {
+
+    padding: 8% 15%;
+    /* padding-top: 8rem;
+    padding-bottom: 8rem; */
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.fa-solid {
+    margin-bottom: 2rem;
+}
+
+/* navigation bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    /* margin-top: 30px; */
+    padding: 0 0 2rem;
+}
+
+/* Dounload buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#testimonials {
+
+    margin: auto;
+    text-align: center;
+    background-color: #9c6f44;
+    color: #fff;
+}
+
+.imgTestimonial {
+    width: 10%;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+#press {
+    background-color: #9c6f44;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    position: abso;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    margin: 20px;
+
+}
+
+.price_col {
+    padding-top: 50px;
+}
+
+@media(max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        height: auto;
+    }
+
+    .mainText {
+        text-align: center;
+    }
+
+
+}
+
+#cta {
+    padding: 10% 25%;
+    text-align: center;
+    background-color: #271300;
+}
+
+
+#footer {
+    padding: 5% 15%;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #fff;
+}
+
+.fa-brands {
+    padding: 10px;
+}
